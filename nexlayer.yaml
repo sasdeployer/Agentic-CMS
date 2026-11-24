@@ -1,0 +1,9 @@
+application:
+  name: cool-nova-agentic-cms
+  pods:
+    - name: app
+      image: "registry.nexlayer.io/user_01kdnssb5ktgqr1mawtnz48s00/agentic-cms:1a20f5f6b68"
+      path: /
+      servicePorts:
+        - 80
+      vars: {}
